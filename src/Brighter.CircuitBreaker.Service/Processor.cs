@@ -15,7 +15,7 @@ namespace Brighter.CircuitBreaker.Service
 
 	    public void Process()
 	    {
-		    //var commandProcessor = 
+		    
 	    }
     }
 }

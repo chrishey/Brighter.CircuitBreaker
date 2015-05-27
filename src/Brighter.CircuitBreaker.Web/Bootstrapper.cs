@@ -27,6 +27,8 @@ namespace Brighter.CircuitBreaker.Web
 			var policyRegistry = new PolicyRegistry {{"circuitBreaker", circuitBreakerPolicy}};
 			var commandProcessor = new CommandProcessor(subscriberRegistry, handlerFactory, requestContextFactory, policyRegistry,
 				logger);
+
+			container.Register<IAmACommandProcessor>(commandProcessor);
 		}
 	}
 
