@@ -2,5 +2,5 @@
 
 ## Pre-requisites
 
-* [http://www.erlang.org/download.html] (Erlang)
-* [https://www.rabbitmq.com/install-windows.html] (RabbitMQ)
+* [Erlang] (http://www.erlang.org/download.html)
+* [RabbitMQ] (https://www.rabbitmq.com/install-windows.html)
